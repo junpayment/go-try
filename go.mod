@@ -1,4 +1,4 @@
-module gotry
+module github.com/junpayment/gotry
 
 go 1.12
 
