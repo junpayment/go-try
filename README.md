@@ -1,4 +1,4 @@
-# go-try
+# gotry
 
 I wrote in try proposal issue because I thought, "Is it better to implement this package?"
 
