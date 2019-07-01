@@ -1,4 +1,4 @@
-package go_try
+package gotry
 
 import (
 	"errors"

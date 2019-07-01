@@ -1,4 +1,4 @@
-module go-try
+module gotry
 
 go 1.12
 
