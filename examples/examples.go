@@ -1,13 +1,14 @@
 package main
 
 import (
-	try "gotry"
 	"log"
+
+	"github.com/junpayment/gotry"
 )
 
 func main() {
-	f := func() (v int, e error) {
-		return 1, nil
+	f := func() (v, x int, e error) {
+		return 1, 2, nil
 	}
 
 	defer func() {
@@ -16,6 +17,6 @@ func main() {
 			return
 		}
 	}()
-	res := try.Try(f())
+	res := gotry.Try(f())
 	log.Println(res)
 }
